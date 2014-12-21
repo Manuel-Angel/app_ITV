@@ -1,0 +1,8 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Archivos_ListView"
+    style="@style/Estilo_LINEARLAYOUT_GLOBAL"
+    android:background="@color/Pastel_oscuro_Bajo_color"
+    tools:context="com.itver.itv.Archivos" >
+
+</ListView>

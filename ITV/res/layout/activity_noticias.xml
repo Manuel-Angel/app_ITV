@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Frame_Noticias"
+    style="@style/Estilo_LINEARLAYOUT_GLOBAL"
+    android:background="@color/Gris_color"
+    tools:context="com.itver.itv.news.Noticias" >
+
+    <ListView
+        android:id="@+id/listView_Noticias"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="10dp"
+        android:divider="@color/Gris_color"
+        android:background="@color/blanco_Principal" >
+    </ListView>
+
+</FrameLayout>

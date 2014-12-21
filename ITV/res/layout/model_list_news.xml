@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Model_noticia_autor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="2"
+    android:shrinkColumns="1" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/Imagen_Lista_Noticias"
+            style="@style/Estilo_MODELO_IMAGEN_NOTICIA"
+            android:contentDescription="@string/descripcion_Lista_Imagen"
+            android:src="@android:drawable/sym_action_chat" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+			android:stretchColumns="*"
+			android:shrinkColumns="1"
+            android:padding="10dp" >
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/Model_Noticia_autor"
+                    style="@style/Estilo_MODELO_INPUT_NOTICIA"
+                    android:text=""
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/Model_Noticia_Fecha"
+                    style="@style/Estilo_MODELO_INPUT_NOTICIA"
+                    android:text=""
+                    android:textColor="@color/Gris_color"
+                    android:textStyle="italic" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" >
+
+                <TextView
+                    android:id="@+id/Model_Noticia_Titulo"
+                    style="@style/Estilo_MODELO_INPUT_NOTICIA"
+                    android:text=""
+                    android:textStyle="bold" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Model_Noticias_Mensaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="2"
+            android:layout_span="2"
+            android:ellipsize="end"
+            android:text="" />
+    </TableRow>
+
+</TableLayout>

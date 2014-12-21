@@ -1,0 +1,99 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Noticia_Galeria_Imagenes"
+    style="@style/Estilo_LINEARLAYOUT_GLOBAL"
+    android:background="@color/Gris_color"
+    tools:context="com.itver.itv.news.Noticia_Completa" >
+
+    <TableLayout
+        android:id="@+id/Noticia_Layout_Tabla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blanco_Principal"
+        android:shrinkColumns="1"
+        android:stretchColumns="2" >
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical" >
+
+            <ImageView
+                android:id="@+id/Imagen_Lista_Noticias"
+                style="@style/Estilo_MODELO_IMAGEN_NOTICIA"
+                android:contentDescription="@string/descripcion_Lista_Imagen"
+                android:src="@drawable/itver" />
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:padding="10dp"
+                android:paddingRight="10dp"
+                android:shrinkColumns="1"
+                android:stretchColumns="*" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/Noticia_Input_autor"
+                        style="@style/Estilo_MODELO_INPUT_NOTICIA_COMPLETA"
+                        android:paddingTop="10dp"
+                        android:paddingRight="15dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/Noticia_Input_Fecha"
+                        style="@style/Estilo_MODELO_INPUT_NOTICIA_COMPLETA"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:text=""
+                        android:textColor="@color/Gris_color"
+                        android:textStyle="italic" />
+                </TableRow>
+            </TableLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/Noticia_Input_Titulo"
+                android:gravity="center_horizontal"
+                style="@style/Estilo_MODELO_INPUT_NOTICIA"
+                android:textSize="18sp"
+                android:layout_span="2"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/Noticia_cuerpo_mensaje"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:textSize="16sp"
+                android:layout_span="2"
+                android:text="" />
+        </TableRow>
+    </TableLayout>
+
+</ScrollView>

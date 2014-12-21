@@ -1,0 +1,71 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout_login"
+    style="@style/Estilo_LINEARLAYOUT_GLOBAL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/verdeOpac_Principal"
+    tools:context="com.itver.itv.MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/layout_Externo_login_Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/Imagen_Lista_Noticias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_gravity="center_vertical"
+			android:padding="30dp"
+            android:contentDescription="@string/descripcion_Imagen"
+            android:src="@drawable/itver" />
+
+        <LinearLayout
+            android:id="@+id/layout_login_Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp" >
+
+            <EditText
+                android:id="@+id/Login_in_User"
+                style="@style/Estilo_PRINCIPAL_INPUT"
+                android:hint="@string/hint_User"
+                android:inputType="text" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/Login_in_pass"
+                style="@style/Estilo_PRINCIPAL_INPUT"
+                android:layout_marginTop="30dp"
+                android:hint="@string/hint_Pass"
+                android:inputType="textPassword" >
+            </EditText>
+
+            <LinearLayout
+                android:id="@+id/LinearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="20dp" >
+
+                <Button
+                    android:id="@+id/button_Register"
+                    style="@style/Estilo_PRINCIPAL_BOTONES"
+                    android:text="@string/Boton_etiq_Registrar" />
+
+                <Button
+                    android:id="@+id/button_SignIn"
+                    style="@style/Estilo_PRINCIPAL_BOTONES"
+                    android:text="@string/Boton_etiq_Ingresar" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

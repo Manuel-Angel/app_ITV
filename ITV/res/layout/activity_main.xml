@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout_Login"
+    style="@style/Estilo_LINEARLAYOUT_GLOBAL"
+    android:background="@color/verdeOpac_Principal"
+    android:orientation="vertical"
+    tools:context="com.itver.itv.MainActivity" >
+
+    <ImageView
+        android:id="@+id/Imagen_Lista_Noticias"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/descripcion_Imagen"
+        android:src="@drawable/itver" />
+
+    <EditText
+        android:id="@+id/Login_in_User"
+        style="@style/Estilo_PRINCIPAL_INPUT"
+        android:hint="@string/hint_User"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/Login_in_pass"
+        style="@style/Estilo_PRINCIPAL_INPUT"
+        android:layout_marginTop="30dp"
+        android:hint="@string/hint_Pass"
+        android:inputType="textPassword" >
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <Button
+            android:id="@+id/button_Register"
+            style="@style/Estilo_PRINCIPAL_BOTONES"
+            android:text="@string/Boton_etiq_Registrar" />
+
+        <Button
+            android:id="@+id/button_SignIn"
+            style="@style/Estilo_PRINCIPAL_BOTONES"
+            android:text="@string/Boton_etiq_Ingresar" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    
+    <!-- TAMAÑO PARA IMÁGENES VIEW PRINCIPAL -->
+    <dimen name="Principal_imagen_Tam_width">150dp</dimen>
+    <dimen name="Principal_imagen_Tam_height">150dp</dimen>
+
+    <!-- TAMAÑO PARA IMÁGENES VIEW PERFIL -->
+    <dimen name="Perfil_imagen_Tam_width">100dp</dimen>
+    <dimen name="Perfil_imagen_Tam_height">100dp</dimen>
+    
+</resources>

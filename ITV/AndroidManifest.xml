@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.itver.itv"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreenActivity"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.itver.itv.menu.MenuUserActivity"
+            android:label="@string/title_activity_menu_user" >
+        </activity>
+        <activity
+            android:name=".Noticia"
+            android:label="@string/title_activity_noticias" >
+        </activity>
+        <activity
+            android:name="com.itver.itv.messages.Mensajes"
+            android:label="@string/title_activity_mensajes" >
+        </activity>
+        <activity
+            android:name=".Grupo"
+            android:label="@string/title_activity_grupos" >
+        </activity>
+        <activity
+            android:name=".Archivos"
+            android:label="@string/title_activity_archivos" >
+        </activity>
+        <activity
+            android:name=".Perfil"
+            android:label="@string/title_activity_perfil" >
+        </activity>
+        <activity
+            android:name="com.itver.itv.groups.ContactosGrupo"
+            android:label="@string/title_activity_contactos_grupo" >
+        </activity>
+        <activity
+            android:name="com.itver.itv.news.Noticia_Completa"
+            android:label="@string/title_activity_noticia__completa" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:ignore="UseCompoundDrawables" >
+
+    <ImageView
+        android:id="@+id/Imagen_Lista_Noticias"
+        style="@style/Estilo_MODELO_IMAGEN_ARCHIVOS"
+        android:contentDescription="@string/descripcion_Lista_Imagen"
+        android:src="@android:drawable/sym_action_chat" />
+
+    <TextView
+        android:id="@+id/Lista_nombreIdentificador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+    
+</LinearLayout>

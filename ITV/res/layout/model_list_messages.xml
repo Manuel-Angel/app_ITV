@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:ignore="UseCompoundDrawables" >
+
+    <ImageView
+        android:id="@+id/Imagen_Lista_Noticias"
+        style="@style/Estilo_MODELO_IMAGEN"
+        android:contentDescription="@string/descripcion_Lista_Imagen"
+        android:src="@android:drawable/sym_action_chat" />
+
+    <TableLayout
+        android:id="@+id/tabla_Datos_Mensajes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*" >
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/Noticia_autor_modelo"
+                android:layout_width="160dp"
+                android:layout_height="30dp"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:singleLine="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Lista_fecha_Messages"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text=""
+                android:gravity="right"
+                android:textColor="@android:color/black"
+                android:textSize="12sp"
+                android:textStyle="italic" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/mensaje_Cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/black"
+                android:singleLine="true"
+                android:layout_span="2"
+                android:textSize="13sp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

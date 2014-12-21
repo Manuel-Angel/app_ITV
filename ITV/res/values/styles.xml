@@ -1,0 +1,106 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+    
+    <!-- ESTILO DISEÑO LINEARLAYOUT -->
+
+    <style name="Estilo_LINEARLAYOUT_GLOBAL" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+    </style>
+
+    <!-- ESTILO ENTRADA PRINCIPAL -->
+    
+    <style name="Estilo_PRINCIPAL_INPUT" parent="@android:style/TextAppearance.Medium">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColorHint">@android:color/black</item>
+    </style>
+
+    <!-- ESTILO BOTONES PRINCIPAL -->
+    
+    <style name="Estilo_PRINCIPAL_BOTONES" parent="AppBaseTheme">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+
+    <!-- ESTILO MESSAGES PERFIL -->
+    
+    <style name="Estilo_PERFIL_MESS" parent="AppBaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    
+    <style name="Estilo_PERFIL_MESS_1" parent="AppBaseTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <!-- ESTILO ENTRADA PERFIL -->
+    
+    <style name="Estilo_PERFIL_INPUT" parent="AppBaseTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- ESTILO BOTONES PERFIL -->
+    
+    <style name="Estilo_PERFIL_BOTONES" parent="AppBaseTheme">
+        <item name="android:layout_width">130dp</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    
+    <!-- ESTILO DISEÑO MODELOS LISTA IMAGEN -->
+    
+    <style name="Estilo_MODELO_IMAGEN" >
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_margin">7dp</item>
+    </style>
+    
+	<!-- ESTILO DISEÑO MODELOS LISTA IMAGEN -->
+	
+    <style name="Estilo_MODELO_IMAGEN_ARCHIVOS" >
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <!-- ESTILO DISEÑO MODELOS LISTA IMAGEN NOTICIA -->
+    
+    <style name="Estilo_MODELO_IMAGEN_NOTICIA" >
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+    
+    <!-- ESTILO DISEÑO MODELOS LISTA ENTRADA NOTICIA -->
+    
+    <style name="Estilo_MODELO_INPUT_NOTICIA" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+    
+    <!-- ESTILO DISEÑO ENTRADA NOTICIA COMPLETA -->
+    
+    <style name="Estilo_MODELO_INPUT_NOTICIA_COMPLETA" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<color name="Negro_color">#000000</color>
+	<color name="Gris_color">#778899</color>
+	<color name="Gris_Bajo_color">#cccc</color>
+	<color name="Azul_Verde_color">#006666</color>
+	
+	<color name="Gris_Azul_color">#99C1C1</color>
+	
+	<color name="Oscuro_color">#1E2626</color>
+	
+	<color name="Pastelin_color">#8BC34A</color>
+
+	
+	<color name="Pastel_oscuro_Bajo_color">#979AAA</color>
+    <color name="blanco_Principal">#FFFFFF</color>
+    <color name="verdeOpaco_Principal">#1B2</color>
+    <color name="verde_Principal">#22b14c</color>
+    <color name="verdeAux_Principal">#3F9D2F</color>
+
+    <!-- FONDO PANTALLA LOGIN & Splash Screen -->
+    <color name="verdeOpac_Principal">#4C924C</color>
+
+    <!-- FONDO ARCHIVOS -->
+    <color name="morado_Archivos">#800080</color>
+    <color name="cafe_Archivos">#D8BFD8</color>
+
+    <!-- FONDO GRUPOS -->
+    <color name="azul_Grupos">#00a2e8</color>
+    <color name="claro_Grupos">#DBD7D2</color>
+
+    <!-- FONDO PERFIL -->
+    <color name="verde_Perfil">#008080</color>
+
+    <!-- FONDO MENSAJES -->
+    <color name="azul_Mensajes">#7092be</color>
+
+    <!-- FONDO NOTICIAS -->
+    <color name="verde_Noticias">#22b14c</color>
+    <color name="morado_Noticias">#800080</color>
+    <color name="amarillo_Noticias">#FDFD96</color>
+
+</resources>
