@@ -76,78 +76,90 @@ public final class R {
     }
     public static final class id {
         public static final int Archivos_ListView=0x7f090000;
-        public static final int Frame_Noticias=0x7f09001f;
+        public static final int Frame_Noticias=0x7f090025;
         public static final int Imagen_Lista_Noticias=0x7f090009;
         public static final int Layout_Grupos=0x7f090006;
         public static final int Layout_Login=0x7f090008;
+        public static final int Layout_Mensajes=0x7f090014;
         public static final int Layout_Splash=0x7f090001;
         public static final int Layout_login=0x7f09000f;
+        public static final int LinearLayout1=0x7f090012;
         public static final int LinearLayout2=0x7f09000c;
-        public static final int Lista_fecha_Messages=0x7f09002e;
-        public static final int Lista_nombreIdentificador=0x7f09002b;
+        public static final int Lista_fecha_Messages=0x7f090037;
+        public static final int Lista_nombreIdentificador=0x7f090034;
         public static final int Login_in_User=0x7f09000a;
         public static final int Login_in_pass=0x7f09000b;
-        public static final int Mensajes_ListView=0x7f090012;
-        public static final int Model_Noticia_Fecha=0x7f090032;
-        public static final int Model_Noticia_Titulo=0x7f090033;
-        public static final int Model_Noticia_autor=0x7f090031;
-        public static final int Model_Noticias_Mensaje=0x7f090034;
-        public static final int Model_noticia_autor=0x7f090030;
-        public static final int Noticia_Galeria_Imagenes=0x7f090016;
-        public static final int Noticia_Input_Fecha=0x7f09001b;
-        public static final int Noticia_Input_Titulo=0x7f09001d;
-        public static final int Noticia_Input_autor=0x7f090019;
-        public static final int Noticia_Layout_Tabla=0x7f090017;
-        public static final int Noticia_autor_modelo=0x7f09002d;
-        public static final int Noticia_cuerpo_mensaje=0x7f09001e;
-        public static final int action_example=0x7f090036;
-        public static final int action_settings=0x7f090035;
-        public static final int button1=0x7f090005;
+        public static final int Mensaje_Emisor=0x7f090031;
+        public static final int Mensaje_Envio_Cuerpo=0x7f090033;
+        public static final int Mensaje_Salida_Enviar=0x7f090017;
+        public static final int Mensajes_ListView=0x7f090018;
+        public static final int Model_Noticia_Fecha=0x7f09003b;
+        public static final int Model_Noticia_Titulo=0x7f09003c;
+        public static final int Model_Noticia_autor=0x7f09003a;
+        public static final int Model_Noticias_Mensaje=0x7f09003d;
+        public static final int Model_noticia_autor=0x7f090039;
+        public static final int Noticia_Galeria_Imagenes=0x7f09001c;
+        public static final int Noticia_Input_Fecha=0x7f090021;
+        public static final int Noticia_Input_Titulo=0x7f090023;
+        public static final int Noticia_Input_autor=0x7f09001f;
+        public static final int Noticia_Layout_Tabla=0x7f09001d;
+        public static final int Noticia_autor_modelo=0x7f090036;
+        public static final int Noticia_cuerpo_mensaje=0x7f090024;
+        public static final int action_example=0x7f09003f;
+        public static final int action_settings=0x7f09003e;
+        public static final int boton_Mensaje_Enviar=0x7f090005;
+        public static final int buttonX=0x7f090016;
         public static final int button_Register=0x7f09000d;
         public static final int button_SignIn=0x7f09000e;
         public static final int button_mensaje_Grupo=0x7f090004;
         public static final int contactos_grupos_etiq=0x7f090002;
-        public static final int container=0x7f090014;
-        public static final int drawer_layout=0x7f090013;
-        public static final int framelayout_Grupos_contenedor_detalle=0x7f09002a;
+        public static final int container=0x7f09001a;
+        public static final int drawer_layout=0x7f090019;
+        public static final int framelayout_Grupos_contenedor_detalle=0x7f090030;
+        public static final int hora=0x7f090032;
+        public static final int layout_Boton_Mensaje=0x7f090015;
         public static final int layout_Externo_login_Horizontal=0x7f090010;
         public static final int layout_login_Horizontal=0x7f090011;
         public static final int listView_Contactos_Grupos=0x7f090003;
-        public static final int listView_Noticias=0x7f090020;
+        public static final int listView_Noticias=0x7f090026;
         public static final int lista_Grupos=0x7f090007;
-        public static final int mensaje_Cuerpo=0x7f09002f;
-        public static final int navigation_drawer=0x7f090015;
-        public static final int perfil_Boton_Cambiar=0x7f090022;
-        public static final int perfil_Boton_CerrarSesion=0x7f090028;
-        public static final int perfil_Boton_Editar=0x7f090027;
-        public static final int perfil_Image_foto=0x7f090021;
-        public static final int perfil_etiq_Nombre=0x7f090023;
-        public static final int perfil_etiq_Pass=0x7f090025;
-        public static final int perfil_input_Nombre=0x7f090024;
-        public static final int perfil_input_pass=0x7f090026;
-        public static final int section_label=0x7f090029;
-        public static final int tabla_Datos_Mensajes=0x7f09002c;
-        public static final int tableRow1=0x7f090018;
-        public static final int tableRow2=0x7f09001a;
-        public static final int tableRow3=0x7f09001c;
+        public static final int mensaje_Cuerpo=0x7f090038;
+        public static final int navigation_drawer=0x7f09001b;
+        public static final int perfil_Boton_Cambiar=0x7f090028;
+        public static final int perfil_Boton_CerrarSesion=0x7f09002e;
+        public static final int perfil_Boton_Editar=0x7f09002d;
+        public static final int perfil_Image_foto=0x7f090027;
+        public static final int perfil_etiq_Nombre=0x7f090029;
+        public static final int perfil_etiq_Pass=0x7f09002b;
+        public static final int perfil_input_Nombre=0x7f09002a;
+        public static final int perfil_input_pass=0x7f09002c;
+        public static final int scrollConversacion=0x7f090013;
+        public static final int section_label=0x7f09002f;
+        public static final int tabla_Datos_Mensajes=0x7f090035;
+        public static final int tableRow1=0x7f09001e;
+        public static final int tableRow2=0x7f090020;
+        public static final int tableRow3=0x7f090022;
     }
     public static final class layout {
         public static final int activity_archivos=0x7f030000;
         public static final int activity_contactos_grupo=0x7f030001;
         public static final int activity_grupos=0x7f030002;
         public static final int activity_main=0x7f030003;
-        public static final int activity_mensajes=0x7f030004;
-        public static final int activity_menu_user=0x7f030005;
-        public static final int activity_noticia__completa=0x7f030006;
-        public static final int activity_noticias=0x7f030007;
-        public static final int activity_perfil=0x7f030008;
-        public static final int activity_splash_screen=0x7f030009;
-        public static final int fragment_menu_user=0x7f03000a;
-        public static final int fragment_navigation_drawer=0x7f03000b;
-        public static final int layout_activity_detalle_grupo=0x7f03000c;
-        public static final int model_list_grupo=0x7f03000d;
-        public static final int model_list_messages=0x7f03000e;
-        public static final int model_list_news=0x7f03000f;
+        public static final int activity_mensaje_a_=0x7f030004;
+        public static final int activity_mensajes=0x7f030005;
+        public static final int activity_menu_user=0x7f030006;
+        public static final int activity_noticia__completa=0x7f030007;
+        public static final int activity_noticias=0x7f030008;
+        public static final int activity_perfil=0x7f030009;
+        public static final int activity_splash_screen=0x7f03000a;
+        public static final int fragment_menu_user=0x7f03000b;
+        public static final int fragment_navigation_drawer=0x7f03000c;
+        public static final int layout_activity_detalle_grupo=0x7f03000d;
+        public static final int mensaje_derecha_user=0x7f03000e;
+        public static final int mensaje_izquierda=0x7f03000f;
+        public static final int model_list_grupo=0x7f030010;
+        public static final int model_list_messages=0x7f030011;
+        public static final int model_list_news=0x7f030012;
     }
     public static final class menu {
         public static final int archivos=0x7f080000;
@@ -155,16 +167,19 @@ public final class R {
         public static final int global=0x7f080002;
         public static final int grupos=0x7f080003;
         public static final int main=0x7f080004;
-        public static final int mensajes=0x7f080005;
-        public static final int menu_user=0x7f080006;
-        public static final int noticia__completa=0x7f080007;
-        public static final int noticias=0x7f080008;
-        public static final int perfil=0x7f080009;
-        public static final int splash_screen=0x7f08000a;
+        public static final int mensaje_a_=0x7f080005;
+        public static final int mensajes=0x7f080006;
+        public static final int menu_user=0x7f080007;
+        public static final int noticia__completa=0x7f080008;
+        public static final int noticias=0x7f080009;
+        public static final int perfil=0x7f08000a;
+        public static final int splash_screen=0x7f08000b;
     }
     public static final class string {
         public static final int Boton_etiq_Ingresar=0x7f060005;
         public static final int Boton_etiq_Registrar=0x7f060006;
+        public static final int Mensaje_DE=0x7f060028;
+        public static final int Mensaje_HORA=0x7f060029;
         public static final int action_example=0x7f060011;
         public static final int action_settings=0x7f060002;
         /**  PANTALLA PRINCIPAL 
@@ -176,6 +191,7 @@ public final class R {
          */
         public static final int descripcion_Lista_Imagen=0x7f060012;
         public static final int descripcion_Logo=0x7f060008;
+        public static final int etiq_Boton_Mensaje_Enviar=0x7f060027;
         public static final int etiq_Btn_contactos_grupo_Mensaje=0x7f060023;
         public static final int etiq_Btn_contactos_grupo_Mensaje_Todos=0x7f060024;
         /**  PERFIL 
@@ -207,6 +223,9 @@ public final class R {
          */
         public static final int title_activity_contactos_grupo=0x7f060021;
         public static final int title_activity_grupos=0x7f060015;
+        /**  Conversación Completa 
+         */
+        public static final int title_activity_mensaje_a_=0x7f060026;
         public static final int title_activity_mensajes=0x7f060014;
         /**  MENÚ 
          */
@@ -219,6 +238,7 @@ public final class R {
         /**  SPLASH SCREEN 
          */
         public static final int title_activity_splash_screen=0x7f060007;
+        public static final int tu=0x7f06002a;
     }
     public static final class style {
         /** 

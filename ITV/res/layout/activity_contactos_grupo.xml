@@ -39,7 +39,7 @@
             android:text="@string/etiq_Btn_contactos_grupo_Mensaje" />
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/boton_Mensaje_Enviar"
             style="@style/Estilo_PERFIL_BOTONES"
             android:layout_width="150dp"
             android:layout_height="wrap_content"

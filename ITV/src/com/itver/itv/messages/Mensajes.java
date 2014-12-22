@@ -3,17 +3,22 @@ package com.itver.itv.messages;
 import java.util.ArrayList;
 
 import android.app.Fragment;
+import android.app.FragmentManager;
+import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 
+import com.itver.itv.Mensaje_a_Activity;
 import com.itver.itv.R;
 import com.itver.itv.model_list_messages.Adaptador_Mensajes;
 import com.itver.itv.model_list_messages.Contacto;
 
-public class Mensajes extends Fragment {
+public class Mensajes extends Fragment implements OnItemClickListener {
 
 	private ListView listView;
 	private ArrayList<Contacto> lista_Grupos;
@@ -22,7 +27,7 @@ public class Mensajes extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		
+
 		View rootView = inflater.inflate(R.layout.activity_mensajes, container, false);
 
 		listView = (ListView) rootView.findViewById(R.id.Mensajes_ListView);
@@ -30,6 +35,8 @@ public class Mensajes extends Fragment {
 
 		adapter = new Adaptador_Mensajes(this.getActivity(), lista_Grupos);
 		listView.setAdapter(adapter);
+		
+		listView.setOnItemClickListener(this);
 
 		int imagen = android.R.drawable.sym_action_chat;
 
@@ -42,5 +49,26 @@ public class Mensajes extends Fragment {
 		lista_Grupos.add(new Contacto(imagen, "Ezequiel Piña", "04/12/2014", "Verificando la app proceso de archivos en una linea esperando resultados"));
 
 		return rootView;
+	}
+
+	@Override
+	public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+		
+		Contacto persona = lista_Grupos.get(position);
+		
+		FragmentManager fm = getFragmentManager();
+		FragmentTransaction trans = fm.beginTransaction();
+		
+		Mensaje_a_Activity conversacion = new Mensaje_a_Activity();
+		
+		Bundle datos = new Bundle();
+		datos.putString("nombre", persona.getNombre());
+		datos.putString("mensaje", persona.getCuerpo_Mensaje());
+		
+		conversacion.setArguments(datos);
+		
+		trans.replace(R.id.container, conversacion);
+		trans.addToBackStack(null);
+		trans.commit();
 	}
 }

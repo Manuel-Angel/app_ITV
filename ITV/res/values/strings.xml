@@ -55,16 +55,22 @@
     <string name="etiq_autor_Noticia">Escrito por :</string>
     <string name="etiq_fecha_Noticia">Fecha :</string>
 
-
     <!-- CONTACTOS EN GRUPOS -->
 
     <string name="title_activity_contactos_grupo">Contactos en Grupo</string>
     <string name="name_grupo_contactos_grupo">Grupo </string>
     <string name="etiq_Btn_contactos_grupo_Mensaje">Mensaje a &#8230;</string>
     <string name="etiq_Btn_contactos_grupo_Mensaje_Todos">Mensaje a Grupo</string>
-    
 
-	<!--  -->
+    <!--  -->
     <string name="title_activity_noticia__completa">Noticia_Completa</string>
-
+    
+	<!-- Conversación Completa -->
+    <string name="title_activity_mensaje_a_">Mensaje&#8230;</string>
+    <string name="etiq_Boton_Mensaje_Enviar">Enviar</string>
+    <string name="Mensaje_DE">Mensaje de&#8230;</string>
+    <string name="Mensaje_HORA">Hora &#8230;</string>
+    <string name="tu">Tú&#8230;</string>
+    
+    
 </resources>

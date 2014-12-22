@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Negro_color"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.itver.itv.Mensaje_a_Activity" >
+
+    <ScrollView
+        android:id="@+id/scrollConversacion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.34" >
+
+        <LinearLayout
+            android:id="@+id/Layout_Mensajes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/layout_Boton_Mensaje"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonX"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="@color/azul_Grupos"
+            android:drawableRight="@android:drawable/ic_menu_send" />
+
+        <EditText
+            android:id="@+id/Mensaje_Salida_Enviar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:ems="10"
+            android:textColor="@color/blanco_Principal"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/boton_Mensaje_Enviar"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:background="@color/azul_Grupos"
+            android:drawableRight="@android:drawable/ic_menu_send" />
+        <!-- android:drawableRight="@android:drawable/sym_action_email" -->
+    </LinearLayout>
+
+</LinearLayout>
