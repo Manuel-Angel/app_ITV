@@ -3,6 +3,6 @@
     android:id="@+id/Archivos_ListView"
     style="@style/Estilo_LINEARLAYOUT_GLOBAL"
     android:background="@color/Pastel_oscuro_Bajo_color"
-    tools:context="com.itver.itv.Archivos" >
+    tools:context="com.itver.itv.archivos.Archivos" >
 
 </ListView>

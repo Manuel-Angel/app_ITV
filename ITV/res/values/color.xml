@@ -1,19 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-	<color name="Negro_color">#000000</color>
-	<color name="Gris_color">#778899</color>
-	<color name="Gris_Bajo_color">#cccc</color>
-	<color name="Azul_Verde_color">#006666</color>
-	
-	<color name="Gris_Azul_color">#99C1C1</color>
-	
-	<color name="Oscuro_color">#1E2626</color>
-	
-	<color name="Pastelin_color">#8BC34A</color>
-
-	
-	<color name="Pastel_oscuro_Bajo_color">#979AAA</color>
+    <color name="Negro_color">#000000</color>
+    <color name="Gris_color">#778899</color>
+    <color name="Gris_Bajo_color">#cccc</color>
+    <color name="Azul_Verde_color">#006666</color>
+    <color name="Gris_Azul_color">#99C1C1</color>
+    <color name="Oscuro_color">#1E2626</color>
+    <color name="Pastelin_color">#8BC34A</color>
+    <color name="Pastel_oscuro_Bajo_color">#979AAA</color>
     <color name="blanco_Principal">#FFFFFF</color>
     <color name="verdeOpaco_Principal">#1B2</color>
     <color name="verde_Principal">#22b14c</color>
@@ -40,5 +35,8 @@
     <color name="verde_Noticias">#22b14c</color>
     <color name="morado_Noticias">#800080</color>
     <color name="amarillo_Noticias">#FDFD96</color>
+    
+    <!-- COLORES FOCO LISTA -->    
+    <color name="pressed_color">#4d90fe</color>
 
 </resources>

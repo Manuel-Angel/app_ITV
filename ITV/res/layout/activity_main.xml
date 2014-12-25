@@ -11,13 +11,13 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/descripcion_Imagen"
+        android:contentDescription="@string/MAIN_Des_ImagenLogo"
         android:src="@drawable/itver" />
 
     <EditText
         android:id="@+id/Login_in_User"
         style="@style/Estilo_PRINCIPAL_INPUT"
-        android:hint="@string/hint_User"
+        android:hint="@string/MAIN_Etiq_Hint_Login_User"
         android:inputType="text" >
 
         <requestFocus />
@@ -27,8 +27,9 @@
         android:id="@+id/Login_in_pass"
         style="@style/Estilo_PRINCIPAL_INPUT"
         android:layout_marginTop="30dp"
-        android:hint="@string/hint_Pass"
+        android:hint="@string/MAIN_Etiq_Hint_Login_Pass"
         android:inputType="textPassword" >
+
     </EditText>
 
     <LinearLayout
@@ -43,12 +44,12 @@
         <Button
             android:id="@+id/button_Register"
             style="@style/Estilo_PRINCIPAL_BOTONES"
-            android:text="@string/Boton_etiq_Registrar" />
+            android:text="@string/MAIN_Etiq_Bn_Registrar" />
 
         <Button
             android:id="@+id/button_SignIn"
             style="@style/Estilo_PRINCIPAL_BOTONES"
-            android:text="@string/Boton_etiq_Ingresar" />
+            android:text="@string/MAIN_Etiq_Bn_Ingresar" />
     </LinearLayout>
 
 </LinearLayout>

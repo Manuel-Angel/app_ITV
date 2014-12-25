@@ -13,6 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:src="@drawable/logo"
-        android:contentDescription="@string/descripcion_Imagen" />
+        android:contentDescription="@string/SPLASH_Des_ImagenLogo" />
 
 </LinearLayout>

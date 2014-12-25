@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="14"
         android:targetSdkVersion="21" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
         android:allowBackup="true"
@@ -43,11 +44,11 @@
             android:label="@string/title_activity_grupos" >
         </activity>
         <activity
-            android:name=".Archivos"
+            android:name="com.itver.itv.archivos.Archivos"
             android:label="@string/title_activity_archivos" >
         </activity>
         <activity
-            android:name=".Perfil"
+            android:name="com.itver.itv.perfil.Perfil"
             android:label="@string/title_activity_perfil" >
         </activity>
         <activity
@@ -59,7 +60,7 @@
             android:label="@string/title_activity_noticia__completa" >
         </activity>
         <activity
-            android:name=".Mensaje_a_Activity"
+            android:name="com.itver.itv.messages.Mensaje_a_Activity"
             android:label="@string/title_activity_mensaje_a_" >
         </activity>
     </application>

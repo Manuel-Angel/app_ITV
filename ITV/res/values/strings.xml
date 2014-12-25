@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- PANTALLA PRINCIPAL -->
-
-    <string name="app_name">ITV</string>
-    <string name="descripcion_Imagen">Logo ITVer</string>
-    <string name="action_settings">Ajustes</string>
-    <string name="hint_User">Usuario</string>
-    <string name="hint_Pass">Contraseña</string>
-    <string name="Boton_etiq_Ingresar">Ingresar</string>
-    <string name="Boton_etiq_Registrar">Registrar</string>
-
     <!-- SPLASH SCREEN -->
-
     <string name="title_activity_splash_screen">Noti-Tec</string>
-    <string name="descripcion_Logo">Logo App</string>
+    <string name="SPLASH_Des_ImagenLogo">Logo NOTI-TEC</string>
+
+    <!-- MODELO LISTA -->
+    <string name="descripcion_Lista_Imagen">Imagen de Lista</string>
 
     <!-- MENÚ -->
-
+    <string name="app_name">ITV</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="action_idioma">Idioma</string>
     <string name="title_activity_menu_user">Inicio</string>
     <string name="section1">Noticias</string>
     <string name="section2">Mensajes</string>
@@ -26,51 +20,56 @@
     <string name="section5">Perfil</string>
     <string name="navigation_drawer_open">Abrir Navegación</string>
     <string name="navigation_drawer_close">Cerrar Navegación</string>
-    <string name="action_example">Perfil</string>
+    <string name="MENU_etiq_Bn_Perfil">Perfil</string>
 
-    <!-- MODELO LISTA -->
-    <string name="descripcion_Lista_Imagen">Imagen Perfil</string>
+    <!-- TÍTULOS -->
     <string name="title_activity_noticias">Noticias</string>
     <string name="title_activity_mensajes">Mensajes</string>
     <string name="title_activity_grupos">Grupos</string>
     <string name="title_activity_archivos">Archivos</string>
     <string name="title_activity_perfil">Perfil</string>
+    <string name="title_activity_noticia__completa">Noticia_Completa</string>
+    <string name="title_activity_contactos_grupo">Contactos en Grupo</string>
+    <string name="title_activity_mensaje_a_">Mensaje&#8230;</string>
+
+    <!-- PANTALLA PRINCIPAL -->
+
+    <string name="MAIN_Des_ImagenLogo">Logo ITVer</string>
+    <string name="MAIN_Etiq_Hint_Login_User">Usuario</string>
+    <string name="MAIN_Etiq_Hint_Login_Pass">Contraseña</string>
+    <string name="MAIN_Etiq_Bn_Ingresar">Ingresar</string>
+    <string name="MAIN_Etiq_Bn_Registrar">Registrar</string>
 
     <!-- PERFIL -->
-    <string name="etiq_Nombre_Perfil">Nombre</string>
-    <string name="etiq_Pass_Perfil">Contraseña</string>
-    <string name="etiq_Perfil_Boton_cambiar">Cambiar foto</string>
-    <string name="etiq_Perfil_Boton_editar">Editar</string>
-    <string name="etiq_Perfil_Boton_salir">Cerrar Sesión</string>
-
-    <!--  -->
-
-
-    <!--  -->
-
+    <string name="PERFIL_Etiq_Tv_Nombre">Nombre</string>
+    <string name="PERFIL_Etiq_Tv__Pass">Contraseña</string>
+    <string name="PERFIL_Etiq_Bn_cambiar">Cambiar foto</string>
+    <string name="PERFIL_Etiq_Bn_editar">Editar</string>
+    <string name="PERFIL_Etiq_Bn_salir">Cerrar Sesión</string>
+    <string name="PERFIL_Des_foto">Foto de Perfil</string>
 
     <!-- NOTICIA COMPLETA -->
-    <string name="etiq_titulo_Noticia">Título Noticia</string>
-    <string name="cuerpo_Mensaje_Noticia">Cuerpo de la Noticia</string>
-    <string name="etiq_autor_Noticia">Escrito por :</string>
-    <string name="etiq_fecha_Noticia">Fecha :</string>
+    <string name="NOTICFULL_Etiq_Tv_Titulo">Título Noticia</string>
+    <string name="NOTICFULL_Etiq_Tv_cuerpo_Mensaje">Cuerpo de la Noticia</string>
+    <string name="NOTICFULL_Etiq_Tv_autor_Noticia">Escrito por :</string>
+    <string name="NOTICFULL_Etiq_Tv_fecha_Noticia">Fecha :</string>
 
     <!-- CONTACTOS EN GRUPOS -->
+    <string name="CONTACTOSGRUPO_Etiq_Tv_nameGroup">Grupo </string>
+    <string name="CONTACTOSGRUPO_Etiq_Bn_MensajePrivado">Mensaje a &#8230;</string>
+    <string name="CONTACTOSGRUPO_Etiq_Bn_Mensaje_Todos">Mensaje a Grupo</string>
 
-    <string name="title_activity_contactos_grupo">Contactos en Grupo</string>
-    <string name="name_grupo_contactos_grupo">Grupo </string>
-    <string name="etiq_Btn_contactos_grupo_Mensaje">Mensaje a &#8230;</string>
-    <string name="etiq_Btn_contactos_grupo_Mensaje_Todos">Mensaje a Grupo</string>
+    <!-- Conversación Completa -->
+    <string name="MENSAJE_Etiq_Tv_DE">Mensaje de&#8230;</string>
+    <string name="MENSAJE_Etiq_Tv_HORA">Hora &#8230;</string>
+    <string name="MENSAJE_Etiq_Hint_cuerpoMensaje">Mensaje&#8230;</string>
 
     <!--  -->
-    <string name="title_activity_noticia__completa">Noticia_Completa</string>
-    
-	<!-- Conversación Completa -->
-    <string name="title_activity_mensaje_a_">Mensaje&#8230;</string>
-    <string name="etiq_Boton_Mensaje_Enviar">Enviar</string>
-    <string name="Mensaje_DE">Mensaje de&#8230;</string>
-    <string name="Mensaje_HORA">Hora &#8230;</string>
-    <string name="tu">Tú&#8230;</string>
-    
-    
+
+
+    <!--  -->
+
+
+    <!--  -->
+
 </resources>

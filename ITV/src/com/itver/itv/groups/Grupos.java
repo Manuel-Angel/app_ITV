@@ -2,6 +2,7 @@ package com.itver.itv.groups;
 
 import java.util.ArrayList;
 
+import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
@@ -17,9 +18,9 @@ import com.itver.itv.R;
 import com.itver.itv.model_list_group.Adaptador_Grupos;
 import com.itver.itv.model_list_group.Grupo;
 
-public class Grupos extends /* FragmentActivity */Fragment implements
-		OnItemClickListener {
+public class Grupos extends Fragment implements OnItemClickListener {
 
+	public static final String TAG_GRUPO_SELECCIONADO = "grupo_seleccionado";
 	private ListView listView;
 	private ArrayList<Grupo> lista_Grupos;
 
@@ -48,7 +49,12 @@ public class Grupos extends /* FragmentActivity */Fragment implements
 		lista_Grupos.add(new Grupo(imagen, "Fundamentos de Base de Datos"));
 		lista_Grupos.add(new Grupo(imagen, "Principios Eléctricos"));
 		lista_Grupos.add(new Grupo(imagen, "Arquitectura de Computadoras"));
-
+		
+		ActionBar barra = getActivity().getActionBar();
+		barra.setTitle("Grupos");
+		
+		tieneGrupoSeleccionado();
+		
 		return rootView;
 	}
 
@@ -66,9 +72,20 @@ public class Grupos extends /* FragmentActivity */Fragment implements
 		
 		grupo.setArguments(datos);
 		
-		trans.replace(R.id.container, grupo);
+		trans.replace(R.id.container, grupo,TAG_GRUPO_SELECCIONADO);
 		trans.addToBackStack(null);
 		trans.commit();
 
+	}
+	
+	private void tieneGrupoSeleccionado(){
+		FragmentManager fm = getFragmentManager();
+		Fragment grupoSeleccionado = fm.findFragmentByTag(TAG_GRUPO_SELECCIONADO);
+		
+		if(grupoSeleccionado != null){
+			FragmentTransaction trans = fm.beginTransaction();
+			trans.remove(grupoSeleccionado).replace(R.id.container, grupoSeleccionado, TAG_GRUPO_SELECCIONADO);
+			trans.commit();
+		}
 	}
 }

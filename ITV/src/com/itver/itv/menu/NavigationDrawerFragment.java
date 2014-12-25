@@ -1,7 +1,7 @@
 package com.itver.itv.menu;
 
-import com.itver.itv.Perfil;
 import com.itver.itv.R;
+import com.itver.itv.perfil.Perfil;
 
 import android.app.Activity;
 import android.app.ActionBar;
@@ -33,6 +33,13 @@ import android.widget.ListView;
  */
 @SuppressWarnings("deprecation")
 public class NavigationDrawerFragment extends Fragment {
+
+//	private static final String TAG_NOTICIAS = "noticias";
+//	private static final String TAG_MENSAJES = "mensajes";
+//	private static final String TAG_GRUPOS = "grupos";
+//	private static final String TAG_ARCHIVOS = "archivos";
+//	private static final String TAG_PERFIL = "perfil";
+//	private static final String [] TAGS = {TAG_ARCHIVOS , TAG_GRUPOS , TAG_MENSAJES , TAG_NOTICIAS , TAG_PERFIL};
 
 	/**
 	 * Remember the position of the selected item.
@@ -107,6 +114,7 @@ public class NavigationDrawerFragment extends Fragment {
 						getString(R.string.section1), getString(R.string.section2), getString(R.string.section3),
 						getString(R.string.section4), getString(R.string.section5), }));
 		mDrawerListView.setItemChecked(mCurrentSelectedPosition, true);
+		
 		return mDrawerListView;
 	}
 
@@ -232,6 +240,7 @@ public class NavigationDrawerFragment extends Fragment {
 	@Override
 	public void onSaveInstanceState(Bundle outState) {
 		super.onSaveInstanceState(outState);
+		
 		outState.putInt(STATE_SELECTED_POSITION, mCurrentSelectedPosition);
 	}
 

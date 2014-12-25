@@ -1,11 +1,11 @@
 package com.itver.itv.menu;
 
-import com.itver.itv.Archivos;
-import com.itver.itv.Perfil;
 import com.itver.itv.R;
+import com.itver.itv.archivos.Archivos;
 import com.itver.itv.groups.Grupos;
 import com.itver.itv.messages.Mensajes;
 import com.itver.itv.news.Noticias;
+import com.itver.itv.perfil.Perfil;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -19,7 +19,15 @@ import android.view.MenuItem;
 public class MenuUserActivity extends Activity implements NavigationDrawerFragment.NavigationDrawerCallbacks {
 
 	private NavigationDrawerFragment mNavigationDrawerFragment;
-
+	
+	private static final String TAG_NOTICIAS = "noticias";
+	private static final String TAG_MENSAJES = "mensajes";
+	private static final String TAG_GRUPOS = "grupos";
+	private static final String TAG_ARCHIVOS = "archivos";
+	private static final String TAG_PERFIL = "perfil";
+	
+//	private static final String [] TAGS = {TAG_ARCHIVOS , TAG_GRUPOS , TAG_MENSAJES , TAG_NOTICIAS , TAG_PERFIL};
+	
 	private CharSequence mTitle;
 
 	@Override
@@ -27,10 +35,16 @@ public class MenuUserActivity extends Activity implements NavigationDrawerFragme
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_menu_user);
 
-		mNavigationDrawerFragment = (NavigationDrawerFragment) getFragmentManager().findFragmentById(R.id.navigation_drawer);
+		//verificarVista();
+		
+		mNavigationDrawerFragment = (NavigationDrawerFragment) getFragmentManager().findFragmentById(
+				R.id.navigation_drawer);
 		mTitle = getTitle();
 
 		mNavigationDrawerFragment.setUp(R.id.navigation_drawer, (DrawerLayout) findViewById(R.id.drawer_layout));
+		
+		System.out.println("metodo onCreate principal");
+		
 	}
 
 	@Override
@@ -39,25 +53,32 @@ public class MenuUserActivity extends Activity implements NavigationDrawerFragme
 		// Las posiciones comienzan de 0.
 
 		Fragment vista = null;
+		String tag = "";
 
 		switch (position) {
 		case 0:
 			vista = new Noticias();
+			tag = TAG_NOTICIAS;
 			break;
 		case 1:
 			vista = new Mensajes();
+			tag = TAG_MENSAJES;
 			break;
 		case 2:
 			vista = new Grupos();
+			tag = TAG_GRUPOS;
 			break;
 		case 3:
 			vista = new Archivos();
+			tag = TAG_ARCHIVOS;
 			break;
 		case 4:
 			vista = new Perfil();
+			tag = TAG_PERFIL;
 			break;
 		}
-		fragmentManager.beginTransaction().replace(R.id.container, vista).commit();
+		
+		fragmentManager.beginTransaction().replace(R.id.container, vista, tag).commit();
 		onSectionAttached(position + 1);
 	}
 
@@ -108,4 +129,23 @@ public class MenuUserActivity extends Activity implements NavigationDrawerFragme
 		}
 		return super.onOptionsItemSelected(item);
 	}
+/*
+	private void verificarVista() {
+		
+		FragmentManager fm = getFragmentManager();
+		
+		for (int i = 0 ; i < TAGS.length ; i++){
+			
+			Fragment vista = fm.findFragmentByTag(TAGS[i]);
+			
+			if (vista != null) {
+				FragmentTransaction trans = fm.beginTransaction();
+				trans.remove(vista).replace(R.id.container, vista, TAGS[i]);
+				trans.commit();
+				System.out.println("lo encontre !! "+TAGS[i]);
+				break;
+			}
+		}
+	}
+*/
 }

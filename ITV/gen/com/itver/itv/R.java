@@ -33,6 +33,9 @@ public final class R {
          */
         public static final int morado_Archivos=0x7f04000d;
         public static final int morado_Noticias=0x7f040014;
+        /**  COLORES FOCO LISTA 
+         */
+        public static final int pressed_color=0x7f040016;
         public static final int verdeAux_Principal=0x7f04000b;
         /**  FONDO PANTALLA LOGIN & Splash Screen 
          */
@@ -72,7 +75,8 @@ public final class R {
         public static final int ic_drawer=0x7f020002;
         public static final int ic_launcher=0x7f020003;
         public static final int itver=0x7f020004;
-        public static final int logo=0x7f020005;
+        public static final int lista_presionada=0x7f020005;
+        public static final int logo=0x7f020006;
     }
     public static final class id {
         public static final int Archivos_ListView=0x7f090000;
@@ -105,7 +109,8 @@ public final class R {
         public static final int Noticia_Layout_Tabla=0x7f09001d;
         public static final int Noticia_autor_modelo=0x7f090036;
         public static final int Noticia_cuerpo_mensaje=0x7f090024;
-        public static final int action_example=0x7f09003f;
+        public static final int action_example=0x7f090040;
+        public static final int action_idiomas=0x7f09003f;
         public static final int action_settings=0x7f09003e;
         public static final int boton_Mensaje_Enviar=0x7f090005;
         public static final int buttonX=0x7f090016;
@@ -169,76 +174,76 @@ public final class R {
         public static final int main=0x7f080004;
         public static final int mensaje_a_=0x7f080005;
         public static final int mensajes=0x7f080006;
-        public static final int menu_user=0x7f080007;
-        public static final int noticia__completa=0x7f080008;
-        public static final int noticias=0x7f080009;
-        public static final int perfil=0x7f08000a;
-        public static final int splash_screen=0x7f08000b;
+        public static final int menu=0x7f080007;
+        public static final int menu_user=0x7f080008;
+        public static final int noticia__completa=0x7f080009;
+        public static final int noticias=0x7f08000a;
+        public static final int perfil=0x7f08000b;
+        public static final int splash_screen=0x7f08000c;
     }
     public static final class string {
-        public static final int Boton_etiq_Ingresar=0x7f060005;
-        public static final int Boton_etiq_Registrar=0x7f060006;
-        public static final int Mensaje_DE=0x7f060028;
-        public static final int Mensaje_HORA=0x7f060029;
-        public static final int action_example=0x7f060011;
-        public static final int action_settings=0x7f060002;
-        /**  PANTALLA PRINCIPAL 
-         */
-        public static final int app_name=0x7f060000;
-        public static final int cuerpo_Mensaje_Noticia=0x7f06001e;
-        public static final int descripcion_Imagen=0x7f060001;
-        /**  MODELO LISTA 
-         */
-        public static final int descripcion_Lista_Imagen=0x7f060012;
-        public static final int descripcion_Logo=0x7f060008;
-        public static final int etiq_Boton_Mensaje_Enviar=0x7f060027;
-        public static final int etiq_Btn_contactos_grupo_Mensaje=0x7f060023;
-        public static final int etiq_Btn_contactos_grupo_Mensaje_Todos=0x7f060024;
-        /**  PERFIL 
-         */
-        public static final int etiq_Nombre_Perfil=0x7f060018;
-        public static final int etiq_Pass_Perfil=0x7f060019;
-        public static final int etiq_Perfil_Boton_cambiar=0x7f06001a;
-        public static final int etiq_Perfil_Boton_editar=0x7f06001b;
-        public static final int etiq_Perfil_Boton_salir=0x7f06001c;
-        public static final int etiq_autor_Noticia=0x7f06001f;
-        public static final int etiq_fecha_Noticia=0x7f060020;
-        /**   
-  
- NOTICIA COMPLETA 
-         */
-        public static final int etiq_titulo_Noticia=0x7f06001d;
-        public static final int hint_Pass=0x7f060004;
-        public static final int hint_User=0x7f060003;
-        public static final int name_grupo_contactos_grupo=0x7f060022;
-        public static final int navigation_drawer_close=0x7f060010;
-        public static final int navigation_drawer_open=0x7f06000f;
-        public static final int section1=0x7f06000a;
-        public static final int section2=0x7f06000b;
-        public static final int section3=0x7f06000c;
-        public static final int section4=0x7f06000d;
-        public static final int section5=0x7f06000e;
-        public static final int title_activity_archivos=0x7f060016;
+        public static final int CONTACTOSGRUPO_Etiq_Bn_MensajePrivado=0x7f060027;
+        public static final int CONTACTOSGRUPO_Etiq_Bn_Mensaje_Todos=0x7f060028;
         /**  CONTACTOS EN GRUPOS 
          */
-        public static final int title_activity_contactos_grupo=0x7f060021;
-        public static final int title_activity_grupos=0x7f060015;
+        public static final int CONTACTOSGRUPO_Etiq_Tv_nameGroup=0x7f060026;
+        /**  PANTALLA PRINCIPAL 
+         */
+        public static final int MAIN_Des_ImagenLogo=0x7f060017;
+        public static final int MAIN_Etiq_Bn_Ingresar=0x7f06001a;
+        public static final int MAIN_Etiq_Bn_Registrar=0x7f06001b;
+        public static final int MAIN_Etiq_Hint_Login_Pass=0x7f060019;
+        public static final int MAIN_Etiq_Hint_Login_User=0x7f060018;
+        public static final int MENSAJE_Etiq_Hint_cuerpoMensaje=0x7f06002b;
         /**  Conversación Completa 
          */
-        public static final int title_activity_mensaje_a_=0x7f060026;
-        public static final int title_activity_mensajes=0x7f060014;
+        public static final int MENSAJE_Etiq_Tv_DE=0x7f060029;
+        public static final int MENSAJE_Etiq_Tv_HORA=0x7f06002a;
+        public static final int MENU_etiq_Bn_Perfil=0x7f06000e;
+        /**  NOTICIA COMPLETA 
+         */
+        public static final int NOTICFULL_Etiq_Tv_Titulo=0x7f060022;
+        public static final int NOTICFULL_Etiq_Tv_autor_Noticia=0x7f060024;
+        public static final int NOTICFULL_Etiq_Tv_cuerpo_Mensaje=0x7f060023;
+        public static final int NOTICFULL_Etiq_Tv_fecha_Noticia=0x7f060025;
+        public static final int PERFIL_Des_foto=0x7f060021;
+        public static final int PERFIL_Etiq_Bn_cambiar=0x7f06001e;
+        public static final int PERFIL_Etiq_Bn_editar=0x7f06001f;
+        public static final int PERFIL_Etiq_Bn_salir=0x7f060020;
+        /**  PERFIL 
+         */
+        public static final int PERFIL_Etiq_Tv_Nombre=0x7f06001c;
+        public static final int PERFIL_Etiq_Tv__Pass=0x7f06001d;
+        public static final int SPLASH_Des_ImagenLogo=0x7f060001;
+        public static final int action_idioma=0x7f060005;
+        public static final int action_settings=0x7f060004;
         /**  MENÚ 
          */
-        public static final int title_activity_menu_user=0x7f060009;
-        /**   
+        public static final int app_name=0x7f060003;
+        /**  MODELO LISTA 
          */
-        public static final int title_activity_noticia__completa=0x7f060025;
-        public static final int title_activity_noticias=0x7f060013;
-        public static final int title_activity_perfil=0x7f060017;
+        public static final int descripcion_Lista_Imagen=0x7f060002;
+        public static final int navigation_drawer_close=0x7f06000d;
+        public static final int navigation_drawer_open=0x7f06000c;
+        public static final int section1=0x7f060007;
+        public static final int section2=0x7f060008;
+        public static final int section3=0x7f060009;
+        public static final int section4=0x7f06000a;
+        public static final int section5=0x7f06000b;
+        public static final int title_activity_archivos=0x7f060012;
+        public static final int title_activity_contactos_grupo=0x7f060015;
+        public static final int title_activity_grupos=0x7f060011;
+        public static final int title_activity_mensaje_a_=0x7f060016;
+        public static final int title_activity_mensajes=0x7f060010;
+        public static final int title_activity_menu_user=0x7f060006;
+        public static final int title_activity_noticia__completa=0x7f060014;
+        /**  TÍTULOS 
+         */
+        public static final int title_activity_noticias=0x7f06000f;
+        public static final int title_activity_perfil=0x7f060013;
         /**  SPLASH SCREEN 
          */
-        public static final int title_activity_splash_screen=0x7f060007;
-        public static final int tu=0x7f06002a;
+        public static final int title_activity_splash_screen=0x7f060000;
     }
     public static final class style {
         /** 

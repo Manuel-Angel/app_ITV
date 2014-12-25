@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/Layout_Splash"
     style="@style/Estilo_LINEARLAYOUT_GLOBAL"
-    android:background="@color/Pastelin_color"
+    android:background="@color/Negro_color"
     android:gravity="center"
     android:orientation="vertical"
     tools:context="com.itver.itv.SplashScreenActivity" >
@@ -13,6 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:src="@drawable/logo"
-        android:contentDescription="@string/descripcion_Imagen" />
+        android:contentDescription="@string/SPLASH_Des_ImagenLogo" />
 
 </LinearLayout>

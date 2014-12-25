@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/verde_Perfil"
-    tools:context="com.itver.itv.Perfil" >
+    tools:context="com.itver.itv.perfil.Perfil" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,7 +18,7 @@
             android:id="@+id/perfil_Image_foto"
             android:layout_width="@dimen/Perfil_imagen_Tam_width"
             android:layout_height="@dimen/Perfil_imagen_Tam_height"
-            android:contentDescription="@string/descripcion_Logo"
+            android:contentDescription="@string/PERFIL_Des_foto"
             android:src="@android:drawable/ic_menu_myplaces" />
 
         <Button
@@ -27,13 +27,13 @@
             android:layout_width="wrap_content"
             android:layout_height="35dp"
             android:gravity="center"
-            android:text="@string/etiq_Perfil_Boton_cambiar"
+            android:text="@string/PERFIL_Etiq_Bn_cambiar"
             android:visibility="invisible" />
 
         <TextView
             android:id="@+id/perfil_etiq_Nombre"
             style="@style/Estilo_PERFIL_MESS_1"
-            android:text="@string/etiq_Nombre_Perfil" />
+            android:text="@string/PERFIL_Etiq_Tv_Nombre" />
 
         <EditText
             android:id="@+id/perfil_input_Nombre"
@@ -44,7 +44,7 @@
         <TextView
             android:id="@+id/perfil_etiq_Pass"
             style="@style/Estilo_PERFIL_MESS"
-            android:text="@string/etiq_Pass_Perfil" />
+            android:text="@string/PERFIL_Etiq_Tv__Pass" />
 
         <EditText
             android:id="@+id/perfil_input_pass"
@@ -60,12 +60,12 @@
             <Button
                 android:id="@+id/perfil_Boton_Editar"
                 style="@style/Estilo_PERFIL_BOTONES"
-                android:text="@string/etiq_Perfil_Boton_editar" />
+                android:text="@string/PERFIL_Etiq_Bn_editar" />
 
             <Button
                 android:id="@+id/perfil_Boton_CerrarSesion"
                 style="@style/Estilo_PERFIL_BOTONES"
-                android:text="@string/etiq_Perfil_Boton_salir" />
+                android:text="@string/PERFIL_Etiq_Bn_salir" />
         </LinearLayout>
     </LinearLayout>
 

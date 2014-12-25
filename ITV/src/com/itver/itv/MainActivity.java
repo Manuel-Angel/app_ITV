@@ -3,6 +3,7 @@ package com.itver.itv;
 
 import com.itver.itv.menu.MenuUserActivity;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -29,6 +30,10 @@ public class MainActivity extends Activity implements OnClickListener {
 
 		btn_ingresar.setOnClickListener(this);
 		btn_register.setOnClickListener(this);
+		
+		ActionBar barra = getActionBar();
+		barra.setTitle("Iniciar Sesión");
+
 	}
 
 	@Override

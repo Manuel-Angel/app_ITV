@@ -36,14 +36,14 @@
             android:id="@+id/button_mensaje_Grupo"
             style="@style/Estilo_PERFIL_BOTONES"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="@string/CONTACTOSGRUPO_Etiq_Bn_MensajePrivado" />
 
         <Button
             android:id="@+id/boton_Mensaje_Enviar"
             style="@style/Estilo_PERFIL_BOTONES"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="35dp"
             android:text="@string/CONTACTOSGRUPO_Etiq_Bn_Mensaje_Todos" />
     </LinearLayout>
 
